@@ -3,12 +3,9 @@ import matplotlib.pyplot as plt
 import seaborn as sb
 import config
 
-depVar = 'Popularity'
-yVar = config.df[depVar]
 
-xVar = sm.add_constant(config.X)
 
-olsModel = sm.OLS(yVar, xVar).fit()
+olsModel = sm.OLS(config.yVar, config.xVar).fit()
 
 def outOLS():
     """
@@ -30,4 +27,4 @@ def resPlot():
     plt.show()
 
 outOLS()
-resPlot()
+#resPlot()

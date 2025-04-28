@@ -1,4 +1,5 @@
 import pandas as pd
+import statsmodels.api as sm
 
 predf = pd.read_csv("../spotify_dataset.csv")
 
@@ -23,3 +24,9 @@ num = df[numVars].copy()
 dum = df[dummyVars].copy()
         
 X = pd.concat([num, dum], axis=1)
+
+depVar = 'Popularity'
+
+yVar = df[depVar]
+
+xVar = sm.add_constant(X)
