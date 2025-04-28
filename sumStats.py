@@ -5,9 +5,9 @@ df = pd.read_csv("../spotify_dataset.csv")
 
 allVars = ["Tempo", "Loudness (db)", "Energy", "Danceability", "Positiveness", "Explicit", "Good for Party", "Good for Work/Study", "Good for Exercise", "Popularity"]
 
-dummyVars = [allVars[4:-1]]
+dummyVars = allVars[4:-1]
 
-numVars = [allVars[0:4]]
+numVars = allVars[0:4]
 
 #print(df["Explicit"])
 
