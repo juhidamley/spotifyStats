@@ -1,11 +1,11 @@
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
 import seaborn as sb
-import config
+import createVars
 
 
 
-olsModel = sm.OLS(config.yVar, config.xVar).fit()
+olsModel = sm.OLS(createVars.yVar, createVars.xVar).fit()
 
 def outOLS():
     """
