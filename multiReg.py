@@ -1,21 +1,18 @@
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
 import seaborn as sb
-import createVars
 
-
-
-olsModel = sm.OLS(createVars.yVar, createVars.xVar).fit()
-
-def outOLS():
+def outOLS(genre, xVar, yVar):
     """
     Outputs the OLS regression into ols.txt
     """
-    with open('ols.txt', 'w') as f:
+    olsModel = sm.OLS(yVar, xVar).fit()
+    with open(f'{genre}_ols.txt', 'w') as f:
         f.write(f"OLS Regression:\n{olsModel.summary()}")
     f.close()
 
-def resPlot():
+def resPlot(genre, xVar, yVar):
+    olsModel = outOLS(genre, xVar, yVar)
     residuals = olsModel.resid
     fitted_values = olsModel.fittedvalues
 
@@ -23,8 +20,5 @@ def resPlot():
     plt.axhline(y=0, color='r', linestyle='--')
     plt.xlabel('Fitted Values')
     plt.ylabel('Residuals')
-    plt.title('Residuals vs. Fitted Values')
+    plt.title(f'{genre} Residuals vs. Fitted Values')
     plt.show()
-
-outOLS()
-#resPlot()
