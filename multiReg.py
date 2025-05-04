@@ -21,5 +21,5 @@ def resPlot(genre, xVar, yVar):
     plt.xlabel('Fitted Values')
     plt.ylabel('Residuals')
     plt.title(f'{genre} Residuals vs. Fitted Values')
-    plt.savefig(f'{genre}resPlot.png') 
+    plt.savefig(f'{genre}_resPlot.png') 
     plt.show()

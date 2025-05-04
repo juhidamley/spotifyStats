@@ -4,6 +4,7 @@ import spotVars as sV
 import sumStats as sS
 import multiReg as mR
 import multiCol as mC
+import normGraph as nG
 
 def genre_stats(genre):
     gen_df = dataframe.createDF(genre)
@@ -14,6 +15,7 @@ def genre_stats(genre):
     mR.resPlot(genre, xVar, yVar)
     mC.calc_vif(X)
     mC.outVIF(X, genre)
+    nG.normGraph(genre, yVar, xVar)
 
-# genre_stats("pop")
+genre_stats("pop")
 

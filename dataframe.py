@@ -13,7 +13,7 @@ def filter_by_genre(row, genre):
 def createDF(genre):
     predf = pd.read_csv("../spotify_dataset.csv")
     predf = dummify("Explicit", predf)
-    if genre == None:
+    if genre == " ":
         return predf
     else:
         filtered_df = predf[predf.apply(lambda row: filter_by_genre(row, genre), axis=1)]
