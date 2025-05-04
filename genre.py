@@ -17,5 +17,5 @@ def genre_stats(genre):
     mC.outVIF(X, genre)
     nG.normGraph(genre, yVar, xVar)
 
-genre_stats("pop")
+genre_stats("rap")
 

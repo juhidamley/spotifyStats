@@ -5,7 +5,7 @@ Dep. Variable:             Popularity   R-squared:                       0.124
 Model:                            OLS   Adj. R-squared:                  0.124
 Method:                 Least Squares   F-statistic:                     163.5
 Date:                Sun, 04 May 2025   Prob (F-statistic):          9.44e-291
-Time:                        12:10:10   Log-Likelihood:                -43882.
+Time:                        12:23:15   Log-Likelihood:                -43882.
 No. Observations:               10376   AIC:                         8.778e+04
 Df Residuals:                   10366   BIC:                         8.786e+04
 Df Model:                           9                                         

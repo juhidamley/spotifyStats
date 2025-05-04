@@ -1,0 +1,11 @@
+rock Multicoliniarity Calculation (VIF):
+              Variable       VIF
+1                Tempo  1.439656
+2        Loudness (db)  2.715236
+3               Energy  3.394147
+4         Danceability  1.586423
+5         Positiveness  1.636290
+6             Explicit  1.091543
+7       Good for Party  1.247137
+8  Good for Work/Study  1.469006
+9    Good for Exercise  1.651130
