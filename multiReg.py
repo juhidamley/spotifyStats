@@ -12,7 +12,7 @@ def outOLS(genre, xVar, yVar):
     f.close()
 
 def resPlot(genre, xVar, yVar):
-    olsModel = outOLS(genre, xVar, yVar)
+    olsModel = sm.OLS(yVar, xVar).fit()
     residuals = olsModel.resid
     fitted_values = olsModel.fittedvalues
 
@@ -21,4 +21,5 @@ def resPlot(genre, xVar, yVar):
     plt.xlabel('Fitted Values')
     plt.ylabel('Residuals')
     plt.title(f'{genre} Residuals vs. Fitted Values')
+    plt.savefig(f'{genre}resPlot.png') 
     plt.show()
