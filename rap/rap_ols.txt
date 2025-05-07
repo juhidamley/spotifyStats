@@ -4,33 +4,31 @@ OLS Regression:
 Dep. Variable:             Popularity   R-squared:                       0.198
 Model:                            OLS   Adj. R-squared:                  0.150
 Method:                 Least Squares   F-statistic:                     4.121
-Date:                Sun, 04 May 2025   Prob (F-statistic):           9.32e-05
-Time:                        12:25:05   Log-Likelihood:                -674.27
-No. Observations:                 160   AIC:                             1369.
-Df Residuals:                     150   BIC:                             1399.
+Date:                Wed, 07 May 2025   Prob (F-statistic):           9.32e-05
+Time:                        11:21:46   Log-Likelihood:                 62.556
+No. Observations:                 160   AIC:                            -105.1
+Df Residuals:                     150   BIC:                            -74.36
 Df Model:                           9                                         
 Covariance Type:            nonrobust                                         
 =======================================================================================
                           coef    std err          t      P>|t|      [0.025      0.975]
 ---------------------------------------------------------------------------------------
-const                  95.5584     28.350      3.371      0.001      39.542     151.575
-Tempo                  14.1009     10.293      1.370      0.173      -6.236      34.438
-Loudness (db)        -123.6852     45.987     -2.690      0.008    -214.550     -32.820
+const                   0.9556      0.283      3.371      0.001       0.395       1.516
+Tempo                   0.1410      0.103      1.370      0.173      -0.062       0.344
+Loudness (db)          -1.2369      0.460     -2.690      0.008      -2.146      -0.328
 Energy                  0.2462      0.188      1.309      0.193      -0.126       0.618
 Danceability            0.0976      0.129      0.757      0.450      -0.157       0.352
 Positiveness           -0.1507      0.073     -2.060      0.041      -0.295      -0.006
-Explicit                7.5498      4.628      1.631      0.105      -1.595      16.695
-Good for Party         20.7524     17.839      1.163      0.247     -14.495      56.000
-Good for Work/Study   -15.7591     14.590     -1.080      0.282     -44.587      13.069
-Good for Exercise     -11.9288      4.161     -2.867      0.005     -20.150      -3.707
+Explicit                0.0755      0.046      1.631      0.105      -0.016       0.167
+Good for Party          0.2075      0.178      1.163      0.247      -0.145       0.560
+Good for Work/Study    -0.1576      0.146     -1.080      0.282      -0.446       0.131
+Good for Exercise      -0.1193      0.042     -2.867      0.005      -0.202      -0.037
 ==============================================================================
 Omnibus:                        2.631   Durbin-Watson:                   1.433
 Prob(Omnibus):                  0.268   Jarque-Bera (JB):                2.117
 Skew:                          -0.145   Prob(JB):                        0.347
-Kurtosis:                       2.517   Cond. No.                     4.15e+03
+Kurtosis:                       2.517   Cond. No.                         80.1
 ==============================================================================
 
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 4.15e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.
