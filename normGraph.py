@@ -2,9 +2,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import statsmodels.api as sm
 
-# gen_df = dataframe.createDF(" ")
-# yVar, xVar, X, num, dum = cV.dfVars(gen_df, sV.numVars, sV.dummyVars, sV.depVar)
-
 def normGraph(genre, yVar, xVar):
     model = sm.OLS(yVar, xVar).fit()
 
