@@ -1,6 +1,7 @@
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
 import seaborn as sb
+import numpy as np
 
 def outOLS(genre, xVar, yVar):
     """
@@ -9,7 +10,6 @@ def outOLS(genre, xVar, yVar):
     olsModel = sm.OLS(yVar, xVar).fit()
     with open(f'{genre}_ols.txt', 'w') as f:
         f.write(f"OLS Regression:\n{olsModel.summary()}")
-    f.close()
 
 def resPlot(genre, xVar, yVar):
     olsModel = sm.OLS(yVar, xVar).fit()

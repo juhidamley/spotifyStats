@@ -1,0 +1,34 @@
+OLS Regression:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             Popularity   R-squared:                       0.124
+Model:                            OLS   Adj. R-squared:                  0.124
+Method:                 Least Squares   F-statistic:                     163.5
+Date:                Wed, 07 May 2025   Prob (F-statistic):          9.44e-291
+Time:                        10:57:52   Log-Likelihood:                -19991.
+No. Observations:               10376   AIC:                         4.000e+04
+Df Residuals:                   10366   BIC:                         4.007e+04
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                   0.8851      0.230      3.852      0.000       0.435       1.336
+Tempo                   0.4342      0.114      3.803      0.000       0.210       0.658
+Loudness (db)           2.9225      0.332      8.809      0.000       2.272       3.573
+Energy                 -0.1113      0.013     -8.350      0.000      -0.137      -0.085
+Danceability            0.1775      0.013     13.988      0.000       0.153       0.202
+Positiveness           -0.0269      0.009     -2.966      0.003      -0.045      -0.009
+Explicit               -0.2499      0.068     -3.680      0.000      -0.383      -0.117
+Good for Party          2.9675      0.090     32.812      0.000       2.790       3.145
+Good for Work/Study    -0.1993      0.061     -3.244      0.001      -0.320      -0.079
+Good for Exercise      -1.0144      0.065    -15.683      0.000      -1.141      -0.888
+==============================================================================
+Omnibus:                      210.785   Durbin-Watson:                   1.356
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              222.681
+Skew:                           0.355   Prob(JB):                     4.42e-49
+Kurtosis:                       2.900   Cond. No.                         225.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
