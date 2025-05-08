@@ -17,7 +17,14 @@ def genre_stats(genre):
     mC.outVIF(X, genre)
     nG.normGraph(genre, yVar, xVar)
 
+def uniquedf():
+    gen_df = dataframe.createDF(" ")
+    unique_values = gen_df["Genre"].value_counts()
+    print(unique_values)
+
 #genre_stats("pop")
 #genre_stats("rock")
 #genre_stats("rap")
 #genre_stats(" ")
+genre_stats("hip hop")
+#uniquedf()

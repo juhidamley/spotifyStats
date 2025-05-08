@@ -1,0 +1,11 @@
+hip hop Multicoliniarity Calculation (VIF):
+              Variable       VIF
+1                Tempo  1.398192
+2        Loudness (db)  2.372674
+3               Energy  2.979007
+4         Danceability  1.503971
+5         Positiveness  1.331440
+6             Explicit  1.149698
+7       Good for Party  1.190253
+8  Good for Work/Study  1.484680
+9    Good for Exercise  1.662401

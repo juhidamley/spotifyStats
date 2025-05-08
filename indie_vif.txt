@@ -1,0 +1,11 @@
+indie Multicoliniarity Calculation (VIF):
+              Variable       VIF
+1                Tempo  1.374219
+2        Loudness (db)  4.068029
+3               Energy  4.787824
+4         Danceability  1.483215
+5         Positiveness  1.593598
+6             Explicit  1.060714
+7       Good for Party  1.176923
+8  Good for Work/Study  1.668599
+9    Good for Exercise  1.446256

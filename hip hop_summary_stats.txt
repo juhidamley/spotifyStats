@@ -1,0 +1,81 @@
+count    210104.000000
+mean          0.522996
+std           0.173527
+min           0.000000
+25%           0.378698
+50%           0.526627
+75%           0.644970
+max           1.000000
+Name: Tempo, dtype: float64count    210104.000000
+mean          0.763616
+std           0.073176
+min           0.000000
+25%           0.734557
+50%           0.778888
+75%           0.810320
+max           1.000000
+Name: Loudness (db), dtype: float64count    210104.000000
+mean          0.616691
+std           0.213532
+min           0.000000
+25%           0.480000
+50%           0.640000
+75%           0.780000
+max           1.000000
+Name: Energy, dtype: float64count    210104.000000
+mean          0.620886
+std           0.167960
+min           0.060000
+25%           0.510000
+50%           0.640000
+75%           0.750000
+max           0.990000
+Name: Danceability, dtype: float64count    210104.000000
+mean          0.468571
+std           0.233494
+min           0.000000
+25%           0.280000
+50%           0.460000
+75%           0.650000
+max           1.000000
+Name: Positiveness, dtype: float64count    210104.000000
+mean          0.406946
+std           0.491266
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           1.000000
+max           1.000000
+Name: Explicit, dtype: float64count    210104.000000
+mean          0.039066
+std           0.193753
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max           1.000000
+Name: Good for Party, dtype: float64count    210104.000000
+mean          0.070684
+std           0.256297
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max           1.000000
+Name: Good for Work/Study, dtype: float64count    210104.000000
+mean          0.204127
+std           0.403064
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max           1.000000
+Name: Good for Exercise, dtype: float64count    210104.000000
+mean          0.262013
+std           0.151008
+min           0.000000
+25%           0.150000
+50%           0.250000
+75%           0.350000
+max           0.950000
+Name: Popularity, dtype: float64

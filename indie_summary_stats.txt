@@ -1,0 +1,81 @@
+count    456.000000
+mean       0.525888
+std        0.165532
+min        0.118343
+25%        0.402367
+50%        0.514793
+75%        0.644970
+max        0.952663
+Name: Tempo, dtype: float64count    456.000000
+mean       0.758331
+std        0.074759
+min        0.492006
+25%        0.709393
+50%        0.779161
+75%        0.813999
+max        0.888990
+Name: Loudness (db), dtype: float64count    456.000000
+mean       0.605351
+std        0.258655
+min        0.020000
+25%        0.380000
+50%        0.660000
+75%        0.830000
+max        0.990000
+Name: Energy, dtype: float64count    456.000000
+mean       0.539715
+std        0.142911
+min        0.130000
+25%        0.450000
+50%        0.540000
+75%        0.630000
+max        0.940000
+Name: Danceability, dtype: float64count    456.000000
+mean       0.463421
+std        0.226539
+min        0.040000
+25%        0.290000
+50%        0.450000
+75%        0.620000
+max        0.970000
+Name: Positiveness, dtype: float64count    456.000000
+mean       0.078947
+std        0.269953
+min        0.000000
+25%        0.000000
+50%        0.000000
+75%        0.000000
+max        1.000000
+Name: Explicit, dtype: float64count    456.000000
+mean       0.024123
+std        0.153599
+min        0.000000
+25%        0.000000
+50%        0.000000
+75%        0.000000
+max        1.000000
+Name: Good for Party, dtype: float64count    456.000000
+mean       0.144737
+std        0.352222
+min        0.000000
+25%        0.000000
+50%        0.000000
+75%        0.000000
+max        1.000000
+Name: Good for Work/Study, dtype: float64count    456.000000
+mean       0.142544
+std        0.349991
+min        0.000000
+25%        0.000000
+50%        0.000000
+75%        0.000000
+max        1.000000
+Name: Good for Exercise, dtype: float64count    456.000000
+mean       0.250943
+std        0.118993
+min        0.000000
+25%        0.160000
+50%        0.245000
+75%        0.320000
+max        0.790000
+Name: Popularity, dtype: float64
